@@ -1,0 +1,31 @@
+.bankCard {
+    margin-bottom:40px;
+    width: 370px;
+    background-color: #FFF;
+    margin-right:50px;
+
+}
+.bankCard_thumbnail {
+    height: 250px;
+    width:370px;
+}
+
+.bankCard_info{
+    display: flex;
+    margin-top:10px;
+    padding-right:30px;
+}
+
+.bankCard_text{
+    margin-left:13px;
+}
+.bankCard_text > h4{
+    font-size:14px;
+    margin-bottom:5px;
+    color:gray;
+}
+
+.bankCard_text > p {
+    font-size:14px;
+    color:gray;
+}

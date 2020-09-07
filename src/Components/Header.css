@@ -1,0 +1,19 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    top:0;
+    z-index: 999;
+    color: white;
+    background-color: #222423;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.header_left{
+    margin-left:5%;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+}

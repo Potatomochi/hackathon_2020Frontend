@@ -1,0 +1,66 @@
+.FormGrp {
+    width: 50%;
+    text-align:center;
+    border:1px solid black;
+    padding:50px;
+    color:#fff;
+}
+
+.FormLabel {
+    font-weight: bold;
+    font-size: 30px
+}
+
+.tag {
+    width: 80%;
+    text-align: left;
+    margin-left: -15%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.formHeader{
+    font-size:20px;
+}
+
+
+.box{
+    width: 50%;
+    margin-top:0%;
+    margin-left:2%;
+}
+
+.buttons {
+    background-color: #de121c !important;
+    color: #fff;
+    margin: 20px;
+    /* margin-bottom:2%; */
+    width: 20%;
+    border-radius:5px;
+    height:50px;
+    cursor: pointer;
+}
+
+.register {
+    width:80%;
+    height: 5%;
+    font-size: small;
+    margin-bottom: 10px;
+    /* margin:10%; */
+}
+
+.questionsContent{
+    width: 95%;
+    text-align: left;
+    float: left;
+    margin-left: 2%;
+    font-weight: 500;
+    /* font-weight: bold; */
+}
+
+.questions{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 22px;
+    color:gold;
+}

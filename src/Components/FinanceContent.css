@@ -1,0 +1,135 @@
+.financeContent{
+    
+    padding: 0% 5%;
+    padding-bottom: 0;
+    height:150vh;
+    color:#fff;
+}
+.title > h2 {
+    color:#fca503;
+    font-size: 70px;
+}
+.title > h5 {
+    font-size:15px;
+}
+.age{
+    border: 1px solid white;
+    width:40%;
+    padding:20px;
+}
+.target_age{
+   border: 1px solid white;
+   width:80%;
+   padding:20px;
+}
+.basic_title{
+   color:#fca503;
+}
+.bankGrid {
+    
+    padding: 0 10%;
+    padding-top:100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .bankGrid {
+       padding-top: 300px;
+       flex-direction: column;
+    }
+ }
+ 
+ .card {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: 250px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;   
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+
+ }
+ 
+ .icon {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 80px;
+    max-width:80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    background-position: 0px;
+ }
+ 
+
+ 
+ .card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+ 
+ .card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height:0;
+    transition: all 0.3s ease;
+ }
+
+ .card:hover {
+    background: #ed3939;
+    height: 270px;
+    transition: all 0.3s ease-in-out;
+ }
+ 
+ .card:hover .info {
+    height: 90%;
+ }
+ .card:hover .title {
+    color:#FFF;
+
+ }
+ 
+ .card:hover .text {
+    color:#FFF;
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height:40px;
+ }
+ 
+ .dataTitle{
+    display: flex;
+ }
+.dataTitle >h1{
+   margin-right:6%;
+}
+ .basic_content > h4 {
+    color:gold;
+ }
